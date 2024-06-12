@@ -1,0 +1,54 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "book_mia",
+  "dataset_size": 29484241,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/swj0419/BookMIA@e0d586e4ed039eeb7d4481b79fb6357f19d92329/book_data.jsonl": {
+      "num_bytes": 32018496,
+      "checksum": null
+    }
+  },
+  "download_size": 32018496,
+  "features": {
+    "book_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "book": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "snippet_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "snippet": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 61502737,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 29484241,
+      "num_examples": 9870,
+      "dataset_name": "book_mia"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
